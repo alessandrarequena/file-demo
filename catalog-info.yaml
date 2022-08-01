@@ -9,4 +9,4 @@ spec:
   owner: seint
   system: plataforma-acompanhamento-compras
   definition: 
-    $text: http://localhost:8080/v3/api-docs/
+    {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8080/","description":"Generated server url"}],"paths":{"/api/publico/download/certidao-consulta-consolidada/{cnpj}":{"get":{"tags":["file-demo-rest-controller"],"operationId":"geraCertidaoConsultaConsolidada","parameters":[{"name":"cnpj","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{}}
