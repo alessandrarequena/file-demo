@@ -8,12 +8,12 @@ spec:
   lifecycle: production
   owner: seint
   system: plataforma-acompanhamento-compras
-  definition: 
+  definition:
     openapi: "3.0.0"
-    info:
+    info: 
       version: 1.0.0
-      title: Compras API
+      tile: Compras API
       license:
-        name: MIT
+        name:MIT
     servers:
-      - url: http://localhost:8080/v3/api-docs/
+      url: http://localhost:8080/v3/api-docs/
