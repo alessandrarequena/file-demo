@@ -9,4 +9,4 @@ spec:
   owner: seint
   system: plataforma-acompanhamento-compras
   definition: 
-    $text: http://localhost:8080/v3/api-docs/
+    $text: http://host.docker.internal:8080/v3/api-docs/
